@@ -6,7 +6,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 const bodyParser = require('body-parser');
 const shortid = require('shortid');
 
-const whitelist = ['https://resume-prkpwm.firebaseapp.com', 'http://localhost:4200'];
+const whitelist = ['https://prkpwm-url-shortener.web.app', 'http://localhost:4200'];
 
 const corsOption = (req, callback) => {
     let corsOptions;
